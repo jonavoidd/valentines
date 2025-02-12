@@ -71,7 +71,7 @@ function App() {
               </div>
               {showTrickyButton && (
                 <button
-                  className="bg-gray-400 text-white px-4 py-2 rounded-lg absolute"
+                  className="w-1/2 bg-gray-400 text-white px-4 py-2 rounded-lg absolute transition-all duration-500 ease-in-out"
                   style={{
                     position: "absolute",
                     top: trickyButtonPosition.top,
